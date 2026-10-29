@@ -10,7 +10,7 @@ export function rangeSum(start, end) {
 export function iterationCount(a) {
   let count = 0;
   let current = a;
-  while (number>0.1) {
+  while (current>0.1) {
     current /= 2;
     count += 1;
   }
